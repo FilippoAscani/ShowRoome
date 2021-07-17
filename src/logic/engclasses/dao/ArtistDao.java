@@ -152,38 +152,38 @@ public class ArtistDao {
 	}
 	
 	public void updateArtist(String artist, String email, String talent, String description) {
-		Statement stmtn = null;
-        Connection connect = null;
+		Statement stmtn1 = null;
+        Connection connect1 = null;
         
         try {
         	// STEP 2: loading dinamico del driver mysql
             Class.forName(driverClassName);
             
          // STEP 3: apertura connessione
-            connect = DriverManager.getConnection(dbUrl, user, pass); 
+            connect1 = DriverManager.getConnection(dbUrl, user, pass); 
             
         	
          // STEP 4.1: creazione ed esecuzione della query
-            stmtn = connect.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+            stmtn1 = connect1.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
                     ResultSet.CONCUR_READ_ONLY); 
             String where = "' WHERE username = '";
             
             if(!email.equals("")) {
             	String sql = "UPDATE artists SET email = '" + email + where + artist + "';";
-            	stmtn.executeUpdate(sql);
+            	stmtn1.executeUpdate(sql);
             }
             if(!talent.equals("")) {
             	String sql1 = "UPDATE artists SET talent = '" + talent + where + artist + "';";
-            	stmtn.executeUpdate(sql1);
+            	stmtn1.executeUpdate(sql1);
             }
             if(!description.equals("")) {
             	String sql2 = "UPDATE artists SET description = '" + description + where + artist + "';";
-            	stmtn.executeUpdate(sql2);
+            	stmtn1.executeUpdate(sql2);
             }
             
          // STEP 6: Clean-up dell'ambiente
-            stmtn.close();
-            connect.close();
+            stmtn1.close();
+            connect1.close();
         } catch (SQLException se) {
             // Errore durante l'apertura della connessione
             se.printStackTrace();
@@ -193,14 +193,14 @@ public class ArtistDao {
             
         } finally {
         	try {
-                if (stmtn != null)
-                    stmtn.close();
+                if (stmtn1 != null)
+                    stmtn1.close();
             } catch (SQLException se2) {
             	se2.printStackTrace();
             }
             try {
-                if (connect != null)
-                    connect.close();
+                if (connect1 != null)
+                    connect1.close();
             } catch (SQLException se) {
                 se.printStackTrace();
             }
