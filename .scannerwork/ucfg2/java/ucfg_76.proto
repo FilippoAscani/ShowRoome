@@ -1,0 +1,415 @@
+
+älogic.engclasses.dao.SponsorDao#createSSQueue(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Vh
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaù ù("21*ª
+13h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java∑ ∑(ƒ¡
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java∑ ∑(
+%40void"java.sql.Statement#close()V*"
+ 
+
+stmtsqueuejava.sql.Statement2close()*
+12*ª
+2h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java» »(∆√
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java» »(&
+%45void"java.sql.Connection#close()V*#
+!
+
+connsqueuejava.sql.Connection2close()*
+0*µ
+14i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(î´
+®
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(ö
+%25java.lang.String"__concat*|z
+xINSERT INTO sponsored_shows_queue (host, title, partner, artist, description, approvedArtist, approvedPartner) VALUES ('*
+
+hostjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(†
+%26java.lang.String"__concat*
+
+%25java.lang.String*
+','…
+∆
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(¶
+%27java.lang.String"__concat*
+
+%26java.lang.String*
+
+titlejava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(¨
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+','À
+»
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(¥
+%29java.lang.String"__concat*
+
+%28java.lang.String*
+
+partnerjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(∫
+%30java.lang.String"__concat*
+
+%29java.lang.String*
+',' 
+«
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(¡
+%31java.lang.String"__concat*
+
+%30java.lang.String*
+
+artistjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(«
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+','œ
+Ã
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(”
+%33java.lang.String"__concat*
+
+%32java.lang.String*!
+
+descriptionjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(Ÿ
+%34java.lang.String"__concat*
+
+%33java.lang.String*
+','∆
+√
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(‹
+%35java.lang.String"__concat*
+
+%34java.lang.String*
+
+nojava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(‚
+%36java.lang.String"__concat*
+
+%35java.lang.String*
+','∆
+√
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(Â
+%37java.lang.String"__concat*
+
+%36java.lang.String*
+
+nojava.lang.String¥
+±
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(Í
+%38java.lang.String"__concat*
+
+%37java.lang.String*
+')®
+•
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≥ ≥(Î
+sqljava.lang.String"__id*
+
+%38java.lang.Stringíè
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¥ ¥(*
+
+%39int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*"
+ 
+
+stmtsqueuejava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+13*±
+15i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(î´
+®
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(ö
+%10java.lang.String"__concat*|z
+xINSERT INTO sponsored_shows_queue (host, title, partner, artist, description, approvedArtist, approvedPartner) VALUES ('*
+
+hostjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(†
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+','…
+∆
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(¶
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+
+titlejava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(¨
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+','∆
+√
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(Ø
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+
+nojava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(µ
+%15java.lang.String"__concat*
+
+%14java.lang.String*
+',' 
+«
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(º
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+
+artistjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(¬
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+','œ
+Ã
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(Œ
+%18java.lang.String"__concat*
+
+%17java.lang.String*!
+
+descriptionjava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(‘
+%19java.lang.String"__concat*
+
+%18java.lang.String*
+','∆
+√
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(◊
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+
+nojava.lang.Stringµ
+≤
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(›
+%21java.lang.String"__concat*
+
+%20java.lang.String*
+','«
+ƒ
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(·
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+
+yesjava.lang.String¥
+±
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(Ê
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+')®
+•
+i
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaØ Ø(Á
+sqljava.lang.String"__id*
+
+%23java.lang.Stringíè
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java∞ ∞(*
+
+%24int"5java.sql.Statement#executeUpdate(Ljava/lang/String;)I*"
+ 
+
+stmtsqueuejava.sql.Statement*
+
+sqljava.lang.String2!executeUpdate(Ljava/lang/String;)*
+13*∆
+17h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java™ ´(/±
+Æ
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java™ ´(/ 
+
+stmtsqueuejava.sql.Statement"__id*
+
+%8java.sql.Statementì
+ê
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¨ ¨(
+nojava.lang.String"__id*
+noï
+í
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java≠	 ≠(
+yesjava.lang.String"__id*
+yesÈÊ
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaÆ Æ(!
+%9boolean",java.lang.String#equals(Ljava/lang/Object;)Z*
+
+partnerjava.lang.String* 2equals(Ljava/lang/Object;)*
+14
+15*º
+6h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¬ ¬(ƒ¡
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¬ ¬(&
+%43void"java.sql.Statement#close()V*"
+ 
+
+stmtsqueuejava.sql.Statement2close()*
+2
+0*◊
+18h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶ ¶(G≥
+∞
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶ ¶(G!
+
+connsqueuejava.sql.Connection"__id*
+
+%5java.sql.ConnectionÜ
+É
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java™4 ™(U	
+%6int"__id*
+""Ü
+É
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java´ ´(.	
+%7int"__id*
+""òï
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java™ ´(/
+%8java.sql.Statement";java.sql.Connection#createStatement(II)Ljava/sql/Statement;*#
+!
+
+connsqueuejava.sql.Connection*
+	
+%6int*
+	
+%7int2createStatement(II)*
+17*î
+19h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶ ¶(&ª
+∏
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶5 ¶(:
+%2java.lang.String"__id*.*,!
+logic.engclasses.dao.SponsorDao"
+dbUrl∫
+∑
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶< ¶(@
+%3java.lang.String"__id*-*+!
+logic.engclasses.dao.SponsorDao"
+user∫
+∑
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶B ¶(F
+%4java.lang.String"__id*-*+!
+logic.engclasses.dao.SponsorDao"
+passÂ
+‚
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java¶ ¶(G
+%5java.sql.Connection"qjava.sql.DriverManager#getConnection(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/sql/Connection;*"
+java.sql.DriverManager*
+
+%2java.lang.String*
+
+%3java.lang.String*
+
+%4java.lang.String*
+18*∞
+20h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java£ £(≈
+¬
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java£ £()
+%0java.lang.String"__id*8*6!
+logic.engclasses.dao.SponsorDao"
+driverClassNameÒ
+Ó
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java£ £(*
+%1java.lang.Class"<java.lang.Class#forName(Ljava/lang/String;)Ljava/lang/Class;*"
+java.lang.Class*
+
+%0java.lang.String*
+19*µ
+21h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaû û(ù
+ö
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaû û( 
+
+stmtsqueuejava.sql.Statement"__id*
+""û
+õ
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaü ü(%!
+
+connsqueuejava.sql.Connection"__id*
+""*
+20*Ü
+0 "
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.javaŒ Œ(
+implicit return*¬
+12h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java∏ ∏(∆√
+h
+\C:/Users/vlrbr/OneDrive/Desktop/repoShowroome/trunk/src/logic/engclasses/dao/SponsorDao.java∏ ∏(
+%41void"java.sql.Connection#close()V*#
+!
+
+connsqueuejava.sql.Connection2close()*	
+2
+6
+0:
+hostjava.lang.String:
+titlejava.lang.String:
+artistjava.lang.String:
+partnerjava.lang.String:
+descriptionjava.lang.StringB#!
+logic.engclasses.dao.SponsorDao
